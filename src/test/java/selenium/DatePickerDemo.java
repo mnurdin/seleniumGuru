@@ -20,7 +20,5 @@ public class DatePickerDemo {
         driver.findElement(By.cssSelector("div.react-datepicker__day--030")).click();
 
         System.out.println(driver.findElement(By.id("datePickerMonthYearInput")).getAttribute("value"));
-
     }
-
 }
